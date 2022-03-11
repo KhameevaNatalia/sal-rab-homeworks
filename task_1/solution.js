@@ -39,9 +39,11 @@ function addInCartSumChange(sum, delta) {
 
     // Задание №1.3. Увеличение суммы в корзине
 
-    // создайте переменную newSum и присвойте ей сумму oldSum и difference
-    // создайте переменную newSumText и присвойте ей результат склеивания переменной newSum и текста ' ₽'
-    // замените склеивание, используемое в newSum Text на шаблонную строку
+    let newSum; // создайте переменную newSum 
+        newSum = oldSum + difference; //и присвойте ей сумму oldSum и difference
+    let newSumText; // создайте переменную newSumText 
+        newSumText = newSum + '₽';//и присвойте ей результат склеивания переменной newSum и текста ' ₽'
+        newSumText = `${newSum} ₽`// замените склеивание, используемое в newSum Text на шаблонную строку
 
     // Конец решения задания №1.3.
 
